@@ -2,7 +2,7 @@
 //1. DB接続します
 try {
   //Password:MAMP='root',XAMPP=''
-  $pdo = new PDO('mysql:dbname=gs_book;charset=utf8;host=localhost','root','');
+  $pdo = new PDO('mysql:dbname=orchidrhino2_gs_book;charset=utf8;host=mysql57.orchidrhino2.sakura.ne.jp','orchidrhino2','kentetsuya69');
 } catch (PDOException $e) {
   exit('DBConnection Error:'.$e->getMessage());
 }
