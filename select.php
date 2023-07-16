@@ -1,5 +1,4 @@
 <?php
-
 //1. DB接続します
 try {
   //Password:MAMP='root',XAMPP=''
